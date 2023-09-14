@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav__start">
+                <a href="#" class="nav-logo">
+                    <img src="./images/navLogo.svg" alt="LOgo">
+                </a>
+                <ul class="nav__menu">
+                    <li class="nav__link">
+                        <a href="#">HOME</a>
+                    </li>
+                    <li class="nav__link">
+                        <a href="#">TV-SHOWS</a>
+                    </li>
+                    <li class="nav__link">
+                        <a href="#">MOVIES</a>
+                    </li>
+                    <li class="nav__link">
+                        <a href="#">NEW</a>
+                    </li>
+                    <li class="nav__link">
+                        <a href="#">POPULAR</a>
+                    </li>
+                </ul>
+            </div>
+
+            <input type="text" class="nav__search" placeholder="Search">
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero__title">Darlings</h1>
+            <div class="hero__btns">
+                <button id="play-btn">Play</button>
+                <button id="more-info-btn">More Info</button>
+            </div>
+            <h2 class="movie-title">Hollywood Movies </h2>
+            <div class="movie-cards"></div>
+        </div>
+        <img class="hero__img" src="" alt="">
+    </section>
+
+    <div class="container">
+        <h3 class="row-title mt">Trending Now </h3>
+        <div class="all row" id="row"></div>
+        <h3 class="row-title">Fantastik</h3>
+        <div class="all" id="fantastik"></div>
+        <h3 class="row-title">Multick</h3>
+        <div class="all" id="multick"></div>
+        <h3 class="row-title">About isquars</h3>
+        <div class="all" id="isquars"></div>
+    </div>
+    <script src="./script/app.js"></script>
+</body>
+
+</html>
